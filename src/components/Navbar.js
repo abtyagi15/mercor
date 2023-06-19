@@ -9,26 +9,26 @@ import AddMoreButton from "../assests/add-square.png";
 import BulbOn from "../assests/lamp-on.png";
 const Navbar = () => {
   return (
-    <div className="w-[250px]">
+    <div className="w-[250px] pl-[22px]">
       <div>
-        <Link to="/">
-          <img src={Home} alt="home" />
+        <Link to="/" className="flex items-center pt-[22px]">
+          <img src={Home} alt="home" className="pr-[14px]" />
           <p>Home</p>
         </Link>
-        <Link to="/messages">
-          <img src={Messages} alt="home" />
+        <Link to="/messages" className="flex items-center pt-[22px]">
+          <img src={Messages} alt="home" className="pr-[14px]"/>
           <p>Messages</p>
         </Link>
-        <Link to="/tasks">
-          <img src={Tasks} alt="home" />
+        <Link to="/tasks" className="flex items-center pt-[22px]">
+          <img src={Tasks} alt="home" className="pr-[14px]" />
           <p>Tasks</p>
         </Link>
-        <Link to="/members">
-          <img src={Members} alt="home" />
+        <Link to="/members" className="flex items-center pt-[22px]">
+          <img src={Members} alt="home" className="pr-[14px]"/>
           <p>Members</p>
         </Link>
-        <Link to="/settings">
-          <img src={Settings} alt="home" />
+        <Link to="/settings" className="flex items-center pt-[22px]">
+          <img src={Settings} alt="home"className="pr-[14px]" />
           <p>Settings</p>
         </Link>
       </div>
