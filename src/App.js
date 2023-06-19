@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {Routes, Route} from "react-router-dom";
+import Layout from "./layouts/Layout";
+import Home from "./pages/mainPages/Home";
+import { Members } from "./pages/mainPages/Members";
+import Messages from "./pages/mainPages/Messages";
+import Settings from "./pages/mainPages/Settings";
+import Tasks from "./pages/mainPages/Tasks";
+import MobileApp from "./pages/otherPages/MobileApp";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Layout>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/messages' element={<Messages/>}/>
+          <Route path='/tasks' element={<Tasks/>}/>
+          <Route path='/members' element={<Members/>}/>
+          <Route path='/settings' element={<Settings/>}/>
+          <Route path='/mobile-apps' element={<MobileApp/>} />
+        </Routes>
+        
+      </Layout>
+    </>
   );
 }
 
