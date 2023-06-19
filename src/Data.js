@@ -1,3 +1,4 @@
+
 const data = {
   cards: [
     {
@@ -8,25 +9,51 @@ const data = {
           title: "Brainstorming",
           description:
             "Brainstorming brings team members' diverse experience into play.",
-          status: "low",
+          status: "Low",
           comments: "12",
           files: "0",
           invites: [
             {
               id: 1,
-              image: "invites.png",
+              image: "../assests/invites.png",
             },
             {
               id: 2,
-              image: "invites.png",
+              image: "../assests/invites.png",
             },
             {
               id: 3,
-              image: "invites.png",
+              image: "../assests/invites.png",
             },
             {
               id: 4,
-              image: "invites.png",
+              image: "../assests/invites.png",
+            },
+          ],
+        },
+        {
+          title: "Research",
+          description:
+            "User research helps you to create an optimal product for users.",
+          status: "High",
+          comments: "10",
+          files: "3",
+          invites: [
+            {
+              id: 1,
+              image: "../assests/invites.png",
+            },
+            {
+              id: 2,
+              image: "../assests/invites.png",
+            },
+            {
+              id: 3,
+              image: "../assests/invites.png",
+            },
+            {
+              id: 4,
+              image: "../assests/invites.png",
             },
           ],
         },
@@ -37,7 +64,7 @@ const data = {
         numberOfCards: 3,
         subCards: [
           {
-            title: "Brainstorming",
+            title: "Onboarding Illusions",
             description:
               "Brainstorming brings team members' diverse experience into play.",
             status: "low",
@@ -46,15 +73,15 @@ const data = {
             invites: [
               {
                 id: 1,
-                image: "invites.png",
+                image: "../assests/invites.png",
               },
               {
                 id: 2,
-                image: "invites.png",
+                image: "../assests/invites.png",
               },
               {
                 id: 3,
-                image: "invites.png",
+                image: "../assests/invites.png",
               },
             ],
           },
@@ -65,20 +92,20 @@ const data = {
         numberOfCards: 2,
       subCards: [
         {
-          title: "Brainstorming",
+          title: "Mobile App Design",
           description:
             "Brainstorming brings team members' diverse experience into play.",
-          status: "low",
+          status: "Completed",
           comments: "12",
           files: "0",
           invites: [
             {
               id: 3,
-              image: "invites.png",
+              image: "../assests/invites.png",
             },
             {
               id: 4,
-              image: "invites.png",
+              image: "../assests/invites.png",
             },
           ],
         },
