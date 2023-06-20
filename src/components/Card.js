@@ -20,7 +20,7 @@ const Card = ({ cards }) => {
         </div>
       </div>
       <div className="bg-[#800080] stroke-[#800080] stroke-[3px] w-[314px] h-[1px] mx-auto"></div>
-      <div>
+      <div className="mx-[20px] my-[20px]">
         {subCards.map((subCards) => (
           <SubCard subCards={subCards} />
         ))}

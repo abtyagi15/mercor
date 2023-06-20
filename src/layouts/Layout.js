@@ -4,13 +4,14 @@ import Navbar from "../components/Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="relative">
+    <div className="overflow-hidden">
       <Header />
       <div className="flex">
         <Navbar />
+        <div className="border border-[#DBDBDB] h-[931px] relative top-[-106px]"></div>
         <div>{children}</div>
       </div>
-      <div className="border-4 h-[100vh] w-[1px] absolute top-0 left-[250px] flex-grow-1"></div>
+      
     </div>
   );
 };
