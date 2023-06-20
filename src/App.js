@@ -11,12 +11,12 @@ function App() {
     <>
       <Layout>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/home' element={<Home/>}/>
           <Route path='/messages' element={<Messages/>}/>
           <Route path='/tasks' element={<Tasks/>}/>
           <Route path='/members' element={<Members/>}/>
           <Route path='/settings' element={<Settings/>}/>
-          <Route path='/mobile-apps' element={<MobileApp/>} />
+          <Route path='/' element={<MobileApp/>} />
         </Routes>
         
       </Layout>
